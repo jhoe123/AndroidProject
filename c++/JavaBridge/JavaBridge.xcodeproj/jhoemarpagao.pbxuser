@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = D2AAC045055464E500DB518D /* JavaBridge */;
+		addToTargets = (
+			D2AAC045055464E500DB518D /* JavaBridge */,
+		);
+		breakpoints = (
+			E87703CB12BCC79E00A58E04 /* JavaClass.java:27 */,
+		);
+		codeSenseManager = E87702F612BCC22200A58E04 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					623,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 314360324;
+			PBXWorkspaceStateSaveDate = 314360324;
+		};
+		perUserProjectItems = {
+			E87703B512BCC6A000A58E04 /* PBXTextBookmark */ = E87703B512BCC6A000A58E04 /* PBXTextBookmark */;
+			E87703B712BCC6A000A58E04 /* PBXTextBookmark */ = E87703B712BCC6A000A58E04 /* PBXTextBookmark */;
+			E87703B912BCC6A000A58E04 /* PBXTextBookmark */ = E87703B912BCC6A000A58E04 /* PBXTextBookmark */;
+			E87703BB12BCC6A000A58E04 /* PBXTextBookmark */ = E87703BB12BCC6A000A58E04 /* PBXTextBookmark */;
+			E87703BD12BCC6A000A58E04 /* PBXTextBookmark */ = E87703BD12BCC6A000A58E04 /* PBXTextBookmark */;
+			E87703BE12BCC6A000A58E04 /* PBXTextBookmark */ = E87703BE12BCC6A000A58E04 /* PBXTextBookmark */;
+			E87703C012BCC6A000A58E04 /* PBXTextBookmark */ = E87703C012BCC6A000A58E04 /* PBXTextBookmark */;
+			E87703C512BCC74400A58E04 /* PBXTextBookmark */ = E87703C512BCC74400A58E04 /* PBXTextBookmark */;
+			E87703C612BCC74400A58E04 /* PBXTextBookmark */ = E87703C612BCC74400A58E04 /* PBXTextBookmark */;
+			E87703D012BCD3F400A58E04 /* PBXTextBookmark */ = E87703D012BCD3F400A58E04 /* PBXTextBookmark */;
+		};
+		sourceControlManager = E87702F512BCC22200A58E04 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D2AAC045055464E500DB518D /* JavaBridge */ = {
+		activeExec = 0;
+	};
+	E87702F512BCC22200A58E04 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E87702F612BCC22200A58E04 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E87702F712BCC22600A58E04 /* JavaBridge.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{311, 0}";
+			sepNavVisRange = "{0, 311}";
+		};
+	};
+	E87702F812BCC22600A58E04 /* JavaBridge.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {950, 936}}";
+			sepNavSelRange = "{2242, 0}";
+			sepNavVisRange = "{1131, 585}";
+			sepNavWindowFrame = "{{58, 4}, {877, 774}}";
+		};
+	};
+	E877036912BCC4EE00A58E04 /* jni.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = jni.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/JavaVM.framework/Headers/jni.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {607, 26507}}";
+			sepNavSelRange = "{1651, 10}";
+			sepNavVisRange = "{1338, 616}";
+		};
+	};
+	E87703B512BCC6A000A58E04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E87703B612BCC6A000A58E04 /* JavaVM.h */;
+		name = "JavaVM.h: 9";
+		rLen = 0;
+		rLoc = 123;
+		rType = 0;
+		vrLen = 179;
+		vrLoc = 0;
+	};
+	E87703B612BCC6A000A58E04 /* JavaVM.h */ = {
+		isa = PBXFileReference;
+		name = JavaVM.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/JavaVM.framework/Headers/JavaVM.h;
+		sourceTree = "<absolute>";
+	};
+	E87703B712BCC6A000A58E04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E87703B812BCC6A000A58E04 /* NSJavaConfiguration.h */;
+		name = "NSJavaConfiguration.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 655;
+		vrLoc = 230;
+	};
+	E87703B812BCC6A000A58E04 /* NSJavaConfiguration.h */ = {
+		isa = PBXFileReference;
+		name = NSJavaConfiguration.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/JavaVM.framework/Headers/NSJavaConfiguration.h;
+		sourceTree = "<absolute>";
+	};
+	E87703B912BCC6A000A58E04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E87703BA12BCC6A000A58E04 /* AWTCocoaComponent.h */;
+		name = "AWTCocoaComponent.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 472;
+		vrLoc = 0;
+	};
+	E87703BA12BCC6A000A58E04 /* AWTCocoaComponent.h */ = {
+		isa = PBXFileReference;
+		name = AWTCocoaComponent.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/JavaVM.framework/Headers/AWTCocoaComponent.h;
+		sourceTree = "<absolute>";
+	};
+	E87703BB12BCC6A000A58E04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E87703BC12BCC6A000A58E04 /* JDWP.h */;
+		name = "JDWP.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 521;
+		vrLoc = 0;
+	};
+	E87703BC12BCC6A000A58E04 /* JDWP.h */ = {
+		isa = PBXFileReference;
+		name = JDWP.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/JavaVM.framework/Headers/JDWP.h;
+		sourceTree = "<absolute>";
+	};
+	E87703BD12BCC6A000A58E04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E877036912BCC4EE00A58E04 /* jni.h */;
+		name = "jni.h: 66";
+		rLen = 10;
+		rLoc = 1651;
+		rType = 0;
+		vrLen = 616;
+		vrLoc = 1338;
+	};
+	E87703BE12BCC6A000A58E04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E87703BF12BCC6A000A58E04 /* jdwpTransport.h */;
+		name = "jdwpTransport.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 369;
+		vrLoc = 0;
+	};
+	E87703BF12BCC6A000A58E04 /* jdwpTransport.h */ = {
+		isa = PBXFileReference;
+		name = jdwpTransport.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/JavaVM.framework/Headers/jdwpTransport.h;
+		sourceTree = "<absolute>";
+	};
+	E87703C012BCC6A000A58E04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E87703C112BCC6A000A58E04 /* JDWPCommands.h */;
+		name = "JDWPCommands.h: 2";
+		rLen = 27;
+		rLoc = 38;
+		rType = 0;
+		vrLen = 794;
+		vrLoc = 0;
+	};
+	E87703C112BCC6A000A58E04 /* JDWPCommands.h */ = {
+		isa = PBXFileReference;
+		name = JDWPCommands.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/JavaVM.framework/Headers/JDWPCommands.h;
+		sourceTree = "<absolute>";
+	};
+	E87703C512BCC74400A58E04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E87702F712BCC22600A58E04 /* JavaBridge.h */;
+		name = "JavaBridge.h: 18";
+		rLen = 0;
+		rLoc = 311;
+		rType = 0;
+		vrLen = 311;
+		vrLoc = 0;
+	};
+	E87703C612BCC74400A58E04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E87702F812BCC22600A58E04 /* JavaBridge.cpp */;
+		name = "JavaBridge.cpp: 21";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 268;
+		vrLoc = 0;
+	};
+	E87703CB12BCC79E00A58E04 /* JavaClass.java:27 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E87703CC12BCC79E00A58E04 /* JavaClass.java */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 27;
+		modificationTime = 314361758.508576;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	E87703CC12BCC79E00A58E04 /* JavaClass.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = JavaClass.java;
+		path = "/users/jhoemarpagao/New Unity Project/Assets/Plugins/Android/src/JavaClass.java";
+		sourceTree = "<absolute>";
+	};
+	E87703D012BCD3F400A58E04 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E87702F812BCC22600A58E04 /* JavaBridge.cpp */;
+		name = "JavaBridge.cpp: 39";
+		rLen = 0;
+		rLoc = 1443;
+		rType = 0;
+		vrLen = 801;
+		vrLoc = 0;
+	};
+}

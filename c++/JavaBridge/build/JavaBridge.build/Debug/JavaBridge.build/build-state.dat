@@ -1,0 +1,81 @@
+TJavaBridge
+v7
+r0
+t314361484.193066
+cCheck dependencies
+cCompileC build/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.o "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cLibtool "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/Debug/libJavaBridge.a" normal i386
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C2C088200000000000000EE
+t1277954178
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/JavaVM.framework/Headers/jni.h
+c000000004A8083790000000000010BB1
+t1249936249
+s68529
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/JavaVM.framework/JavaVM
+c000000004B760CD0000000000000EEAC
+t1266027728
+s61100
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp
+c000000004D0C92CF0000000000000C47
+t1292669647
+s3143
+i"JavaBridge.h"
+
+N/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.h
+c000000004D0C8EF10000000000000137
+t1292668657
+s311
+i<stdlib.h>
+i<JavaVM/jni.h>
+
+N/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/Debug/libJavaBridge.a
+t1292668684
+s50880
+
+N/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.LinkFileList
+c000000004D0C8AB50000000000000084
+t1292667573
+s132
+
+N/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.o
+t1292668684
+s50056
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314361484#314361484#0(0"0(0#1#0"8624344096#0"0#
+
+CCompileC build/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.o "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s314361484.046082
+e314361484.166999
+r1
+xCompileC
+xbuild/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.o
+x/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp314361484#314361484#0(0"0(0#0#67"/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp8623772000#1060"    cd "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/JavaBridge.hmap" "-F/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/Debug" "-I/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/Debug/include" "-I/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/DerivedSources/i386" "-I/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/DerivedSources" -c "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp" -o "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.o"0#
+
+CLibtool "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/Debug/libJavaBridge.a" normal i386
+s314361484.167087
+e314361484.193012
+r1
+xLibtool
+x/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/Debug/libJavaBridge.a
+xnormal
+xi386
+lSLF07#2@47"Libtool build/Debug/libJavaBridge.a normal i386314361484#314361484#0(0"0(0#0#0"8624061536#529"    cd "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/Debug" -filelist "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.LinkFileList" -framework JavaVM -o "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/Debug/libJavaBridge.a"0#
+

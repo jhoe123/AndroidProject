@@ -1,0 +1,64 @@
+TJavaBridge
+v7
+r0
+t314360374.041379
+cCheck dependencies
+cCompileC build/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.o "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C2C088200000000000000EE
+t1277954178
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/stdlib.h
+c0000000047BA99310000000000002A79
+t1203411249
+s10873
+
+N/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp
+c000000004D0C8AB500000000000000EF
+t1292667573
+s239
+i"JavaBridge.h"
+i<stdlib.h>
+i<jni.h>
+i<android/log.h>
+
+N/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.h
+c000000004D0C8AA60000000000000097
+t1292667558
+s151
+
+N/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/Debug/libJavaBridge.a
+t2
+s0
+
+N/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.LinkFileList
+c000000004D0C8AB50000000000000084
+t1292667573
+s132
+
+N/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.o
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314360373#314360373#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.o "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s314360373.917581
+e314360374.041311
+r0
+xCompileC
+xbuild/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.o
+x/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp314360373#314360374#0(238"/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp:13:17: error: jni.h: No such file or directory/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp:14:25: error: android/log.h: No such file or directory2(4@32"Jni.h: No such file or directory314360374#0#115#0(6@67"/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp314360373#13#0#13#0#28"*: No such file or directory0(4@40"Android/log.h: No such file or directory314360374#115#123#0(6@67"/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp314360373#14#0#14#0#28"*: No such file or directory0(0#0#67"/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp8608473504#1060"    cd "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/JavaBridge.hmap" "-F/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/Debug" "-I/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/Debug/include" "-I/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/DerivedSources/i386" "-I/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/DerivedSources" -c "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/JavaBridge.cpp" -o "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/JavaBridge.build/Debug/JavaBridge.build/Objects-normal/i386/JavaBridge.o"1#
+
+CLibtool "/Users/jhoemarpagao/New Unity Project/c++/JavaBridge/build/Debug/libJavaBridge.a" normal i386
+r0
+
