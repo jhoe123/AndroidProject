@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
+//cube that displays the current activity view
 public class CubeObject : SceneObject {
 	enum TouchState
 	{
@@ -13,23 +14,31 @@ public class CubeObject : SceneObject {
 	public Texture mLeft;
 	public Texture mBack;
 	public Texture mRight;
-
-	TouchState mTouchState;
-	Vector2 mElapsedTouch;
-	Vector3 mRotation;
+	
+	ArrayList mActivities;
+	int mActivityIndex;
+	
+	//use for doing cube rotations
+	TouchState mTouchState;				//the current touch state
+	Vector2 mElapsedTouch;				
+	Vector3 mRotation;					//the current rotation
 	float mTargetRotation;
 	float mStartRotation;
 	float mElapsedTime;
-	float mOrigRot;
-	int mDragDirection = 0;
 	
 	protected override void Awake()
 	{
 		base.Awake();
 		mRotation = mTransform.eulerAngles;
-		InputManager.mMouseEvent += OnMouseInput;	
+		
+		#if UNITY_EDITOR
+			InputManager.mMouseEvent += OnMouseInput;	
+		#else
+			InputManager.mTouchEvent += OnTouchInput;
+		#endif
 	}
 	
+	#if UNITY_EDITOR
 	void OnMouseInput( InputType pType, int pIndex, bool pIsPressed )
 	{
 		if( pIndex == 0 )
@@ -38,7 +47,7 @@ public class CubeObject : SceneObject {
 			{
 				mTouchState = TouchState.Touch;
 				mElapsedTouch = Input.mousePosition;
-				mOrigRot = mRotation.y;
+				//mOrigRot = mRotation.y;
 			}
 			else 
 			{
@@ -54,6 +63,7 @@ public class CubeObject : SceneObject {
 			}
 		}	
 	}
+	#endif
 	
 	//to be called when the cube will be rotated
 	//@param: the value to be added to the euler rotation of cube
@@ -63,9 +73,29 @@ public class CubeObject : SceneObject {
 		mTransform.eulerAngles = mRotation;
 	}
 	
-	void OnTouchInput( InputType pType )
+	void OnTouchInput( InputType pType, Touch[] pTouches )
 	{
-		
+		Touch touch = pTouches[0];
+		if(touch.phase == TouchPhase.Began )
+		{
+			mTouchState = TouchState.Touch;
+			mElapsedTouch = touch.position;
+			//mOrigRot = mRotation.y;	
+		}else
+		{
+			if( touch.phase == TouchPhase.Ended )
+			{
+				mTouchState = TouchState.UnTouch;
+				mStartRotation = mTransform.eulerAngles.y;
+				float rot = (mStartRotation % 90);
+
+				if(rot > 45 )
+					mTargetRotation =  mStartRotation - rot + 90;
+				else
+					mTargetRotation = mStartRotation - rot;
+				mElapsedTime = Time.time;	
+			}	
+		}
 	}
 	
 	protected override void FixedUpdate()
@@ -78,15 +108,13 @@ public class CubeObject : SceneObject {
 				mTargetRotation = 0;
 				#if UNITY_EDITOR
 					currentTouch = Input.mousePosition;
-					if( currentTouch.x > mElapsedTouch.x )
-						mDragDirection = -1;
-					else
-						mDragDirection = 1;
-					OnRotate( (mElapsedTouch.x - currentTouch.x) * 0.35f + mRotation.y );
-					Debug.Log( mRotation.y - mOrigRot);
 				#else
+					currentTouch = Input.touches[0].position;
 				#endif
 				
+					
+				OnRotate( (mElapsedTouch.x - currentTouch.x) * 0.35f + mRotation.y );
+				//Debug.Log( mRotation.y - mOrigRot);
 				mElapsedTouch = currentTouch;
 				break;
 			

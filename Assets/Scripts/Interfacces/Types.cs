@@ -17,3 +17,10 @@ public enum ObjectState
 	STATE_IDLE = 2,
 	STATE_HIT = 3,
 }
+
+public struct sActivityInfo
+{
+	public string mName;		//activity name
+	public int mId;				//activity id
+	public Texture mTextureView;//the graphical view of the activity
+}

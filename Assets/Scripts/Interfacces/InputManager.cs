@@ -4,14 +4,16 @@ using System.Collections;
 /*Input registry. has callbacks for inputs*/
 public class InputManager : MonoBehaviour {
 
-	public static TouchCallbackDelegate mTouchEvent;
-	public static MouseCallbackDelegate mMouseEvent;
-	public static KeyboardCallbackDelegate mKeyboardEvent;
+	//input callbacks
+	public static TouchCallbackDelegate mTouchEvent;					//to be called when triggered a touch events	
+	public static MouseCallbackDelegate mMouseEvent;					//to be called when triggered mouse events
+	public static KeyboardCallbackDelegate mKeyboardEvent;				//to be called when triggered keyboard events
 	
 	public static string mLastKeyboardInput = "";
 	public static bool[] mMouseIndexPressed = {false, false, false};	//true if the current mouse id pressed		
 	public static Touch[] mTouches;
 	
+	//to be called every frame
 	void Update()
 	{
 		#if UNITY_EDITOR
